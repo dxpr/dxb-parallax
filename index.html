@@ -18,5 +18,16 @@
       </section>
     </div>
     <script src="script.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const ParallaxEl = new Parallax(
+          document.querySelector('.parallax-section'),
+          {
+            speedFactor: 0.6,
+          }
+        );
+        console.log(ParallaxEl);
+      });
+    </script>
   </body>
 </html>
