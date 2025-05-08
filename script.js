@@ -13,7 +13,7 @@
  * parallax('.parallax', { xpos: '50%', outerHeight: true });
  */
 
-export class Parallax {
+class Parallax {
   static #instances = new Set();
   static #windowHeight = window.innerHeight;
   static #ticking = false;
@@ -118,7 +118,9 @@ export class Parallax {
  * Accepts: DOM Element | NodeList | HTMLCollection | selector string
  * Returns:  Array of Parallax instances (same order as input)
  */
-export function parallax(targets, options) {
+
+// eslint-disable-next-line no-unused-vars
+function parallax(targets, options) {
   const elements =
     typeof targets === 'string'
       ? document.querySelectorAll(targets)
