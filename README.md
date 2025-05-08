@@ -1,4 +1,4 @@
-# DXPR Parallax
+# DXP Parallax
 
 A lightweight JavaScript plugin for parallax scrolling effects. This is a vanilla JavaScript port of Ian Lunn’s jQuery Parallax v1.1.3.
 
